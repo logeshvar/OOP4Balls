@@ -20,7 +20,7 @@ public class OOP4balls extends PApplet {
         double intSpeed = 1;
 
         for (int ballno = 1; ballno < 5; ballno++) {
-            movingBalls[ballno-1] = new Ball(diameter,0, ballno * 96, intSpeed * ballno);
+            movingBalls[ballno-1] = new Ball(diameter,0, ballno * height/5, intSpeed * ballno);
         }
     }
 
